@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RemoteData, CompleterService, CompleterItem } from 'ng2-completer';
-import { Headers, RequestOptions, Http } from '@angular/http';
+import { Headers, RequestOptions } from '@angular/http';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +13,7 @@ export class AppComponent {
 
   public team:string;
 
-  constructor(completerService: CompleterService, http: Http){
+  constructor(completerService: CompleterService){
 
     
     this.dataRemote2 = completerService.remote(

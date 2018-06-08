@@ -5,7 +5,6 @@ import { Ng2CompleterModule } from "ng2-completer";
 
 
 import { AppComponent } from './app.component';
-import { HttpModule } from '@angular/http';
 
 
 @NgModule({
@@ -16,7 +15,6 @@ import { HttpModule } from '@angular/http';
     BrowserModule,
     Ng2CompleterModule,
     FormsModule,
-    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
